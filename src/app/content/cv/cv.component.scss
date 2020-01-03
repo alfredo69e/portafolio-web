@@ -12,10 +12,11 @@
     border-radius: 5px;
     text-decoration: none;
     font-family: sans-serif, Arial, Helvetica;
+    margin-bottom: 50px;
 }
 
 .lateral-left {
-    flex-basis: 25%;
+    flex-basis: 240px;
     border: 1px solid $color_black_light;
     background-color: $color_backgroung_celeste;
     color: $color_white;
@@ -57,7 +58,7 @@
         }
         .info {
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
             border-bottom: 1px solid $color_gray_light;
             padding-bottom: 10px;
             padding-top: 10px;
@@ -120,8 +121,9 @@
 }
 
 .contenido-right {
-    flex-basis: 70%;
+    flex-basis: 60%;
     padding: 25px;
+    margin: 0px auto;
     h1 {
         font-size: 18px;
         color: $color_title_letter;
@@ -141,3 +143,5 @@
         line-height: 20px;
     }
 }
+
+@import '../../../assets/scss/styles/responsive';

@@ -1,0 +1,34 @@
+    @media (max-width: 1220px) {
+        .contenido-right {
+            flex-basis: 55%;
+        }
+    }
+    
+    @media (max-width: 1082px) {
+        .contenido-right {
+            flex-basis: 50%;
+        }
+    }
+    
+    @media (max-width: 974px) {
+        .contenido-right {
+            flex-basis: 40%;
+        }
+    }
+    
+    @media (max-width: 812px) {
+        .lateral-left {
+            flex-basis: 200px;
+        }
+    }
+    
+    @media (max-width: 702px) {
+        .lateral-left {
+            flex-basis: 100%;
+            .contenido {
+                .info {
+                    font-size: 15px;
+                }
+            }
+        }
+    }

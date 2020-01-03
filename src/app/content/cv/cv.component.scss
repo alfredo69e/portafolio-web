@@ -140,4 +140,49 @@
         letter-spacing: 2px;
         line-height: 20px;
     }
+    .experiencias {
+        // background: red;
+        width: 100%;
+        min-height: 100px;
+        height: auto;
+        article {
+          display: flex;
+          flex-flow: row wrap;
+            // padding-top: 10px;
+            .triangulo_fijo {
+              position: relative;
+              flex-basis: 80px;
+                height: 26px;
+                background: $color_backgroung_celeste;
+                margin-top: 20px;
+                span {
+                    font-size: 14px;
+                    color: $color_white;
+                    text-align: center;
+                    align-items: center;
+
+                }
+            }
+            .triangulo_fijo:before {
+                content: "";
+                position: absolute;
+                top: 1px;
+                left: 80px;
+                width: 0;
+                height: 0;
+                border-width: 12px;
+                border-style: solid;
+                border-color: transparent transparent transparent $color_backgroung_celeste;
+            }
+
+
+            p{
+              padding-top: 0px;
+              flex-basis: 100px;
+              padding-left: 30px;
+              flex-grow: 1;
+
+            }
+        }
+    }
 }

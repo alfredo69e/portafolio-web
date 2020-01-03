@@ -1,0 +1,178 @@
+@media (max-width: 1856px){
+  .contenido-right {
+    .two_element {
+      flex-basis: 85%;
+      // article {
+      //   flex-basis: 45%;
+      // }
+    }
+  }
+}
+@media (max-width: 1784px){
+  .contenido-right {
+    .two_element {
+      flex-basis: 80%;
+      // article {
+      //   flex-basis: 45%;
+      // }
+    }
+  }
+}
+
+@media (max-width: 1734px){
+  .contenido-right {
+    flex-basis: 65%;
+    .experiencias {
+      article {
+          .exp{
+            flex-basis: 70%;
+          }
+
+      }
+    }
+    .two_element {
+      flex-basis: 70%;
+      // article {
+      //   flex-basis: 45%;
+      // }
+    }
+}
+}
+
+
+@media (max-width: 1613px){
+  .contenido-right {
+    flex-basis: 60%;
+    .experiencias {
+      article {
+          .exp{
+            flex-basis: 65%;
+          }
+
+      }
+    }
+    .two_element {
+      flex-basis: 100%;
+      h1{
+        width: 100%;
+      }
+      article{
+        flex-basis: 45%;
+      }
+    }
+}
+}
+
+@media (max-width: 1324px){
+  .contenido-right {
+    flex-basis: 60%;
+    .experiencias {
+      article {
+          .exp{
+            flex-basis: 65%;
+          }
+
+      }
+    }
+    .two_element {
+      flex-basis: 100%;
+      h1{
+        width: 100%;
+      }
+      article{
+        flex-basis: 100%;
+      }
+    }
+}
+}
+
+
+   @media (max-width: 1283px) {
+        .contenido-right {
+            flex-basis: 50%;
+            .experiencias {
+              article {
+                  .exp{
+                    flex-basis: 55%;
+                  }
+
+              }
+            }
+
+          }
+    }
+
+    @media (max-width: 1082px) {
+        .contenido-right {
+            flex-basis: 50%;
+            .experiencias {
+              article {
+                  .exp{
+                    flex-basis: 45%;
+                  }
+
+              }
+            }
+        }
+    }
+
+    @media (max-width: 974px) {
+        .contenido-right {
+            flex-basis: 40%;
+            .experiencias {
+              article {
+                .triangulo_fijo{
+                  display: none;
+                }
+                .line_vertical{
+                  display: none;
+                }
+                  .exp{
+                    flex-basis: 100%;
+                    margin: 0px;
+                    padding: 0px;
+                  }
+              }
+            }
+        }
+    }
+
+    @media (max-width: 812px) {
+        .lateral-left {
+            flex-basis: 200px;
+        }
+
+
+    }
+
+    @media (max-width: 702px) {
+        .lateral-left {
+            flex-basis: 100%;
+            .contenido {
+                .info {
+                    font-size: 15px;
+                }
+            }
+        }
+        .contenido-right {
+            flex-basis: 100%;
+            .experiencias {
+              article {
+                .triangulo_fijo{
+                  display: none;
+                }
+                .line_vertical{
+                  display: none;
+                }
+                  .exp{
+                    flex-basis: 100%;
+                    margin: 0px;
+                    padding: 0px;
+                  }
+
+              }
+            }
+        }
+
+
+    }

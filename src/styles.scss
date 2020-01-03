@@ -1,3 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import './assets/scss/styles/common'
+@import './assets/scss/styles/variables-globals';
+@import './assets/scss/styles/common';
+
+
+
+// .ngx-charts{
+//   display: block;
+//   margin: 0px auto;
+//   float: none !important;
+// }
+
+.chart-legend .legend-labels {
+  text-align: center !important;
+}

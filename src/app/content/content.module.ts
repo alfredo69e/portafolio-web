@@ -2,6 +2,7 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { CvComponent } from './cv/cv.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    NgxChartsModule
   ],
   declarations: [
     CvComponent

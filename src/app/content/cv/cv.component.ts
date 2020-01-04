@@ -41,18 +41,18 @@ export class CvComponent implements OnInit {
 
   ngOnInit() {
     this.single = [
-      {
+      [{
         name: 'Manejo de Presion',
         value: 80
-      },
-      {
+      }],
+      [{
         name: 'Comunicacion',
         value: 60
-      },
-      {
+      }],
+      [{
         name: 'Enfoque',
         value: 40
-      }
+      }]
     ];
 
     this.single2 = [

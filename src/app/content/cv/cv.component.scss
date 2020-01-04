@@ -156,6 +156,16 @@
   .habilidad{
     flex-basis: 90%;
     height: 200px;
+    div{
+      // flex-grow: 1;
+      display: block;
+      float: left;
+
+      .ngx-charts{
+        width: 500px !important;
+      }
+
+    }
   }
 
   p {

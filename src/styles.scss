@@ -4,12 +4,9 @@
 @import './assets/scss/styles/common';
 
 
-
-// .ngx-charts{
-//   display: block;
-//   margin: 0px auto;
-//   float: none !important;
-// }
+.ngx-charts{
+ width: 30% !important;
+}
 
 .chart-legend .legend-labels {
   text-align: center !important;

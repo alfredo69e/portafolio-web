@@ -89,9 +89,24 @@
 
     <div class="habilidad">
       <!--  [view]="view" -->
-      <ngx-charts-pie-grid [scheme]="colorScheme" [results]="single" [legend]="showLegend"
-        [tooltipDisabled]="showLabels" [designatedTotal]="100">
-      </ngx-charts-pie-grid>
+      <div>
+        <ngx-charts-pie-grid  [scheme]="colorScheme" [results]="single[0]" [legend]="showLegend"
+        [designatedTotal]="100">
+     </ngx-charts-pie-grid>
+      </div>
+
+      <div>
+        <ngx-charts-pie-grid [view]="view" [scheme]="colorScheme" [results]="single[1]" [legend]="showLegend"
+        [designatedTotal]="100">
+     </ngx-charts-pie-grid>
+      </div>
+
+      <div>
+        <ngx-charts-pie-grid [view]="view" [scheme]="colorScheme" [results]="single[2]" [legend]="showLegend"
+        [designatedTotal]="100">
+     </ngx-charts-pie-grid>
+      </div>
+
     </div>
 
     <h1>Experiencia Profecional</h1>

@@ -1,7 +1,7 @@
 @media (max-width: 1856px){
   .contenido-right {
     .two_element {
-      flex-basis: 85%;
+      flex-basis: 80%;
       // article {
       //   flex-basis: 45%;
       // }
@@ -11,7 +11,7 @@
 @media (max-width: 1784px){
   .contenido-right {
     .two_element {
-      flex-basis: 80%;
+      flex-basis: 75%;
       // article {
       //   flex-basis: 45%;
       // }
@@ -31,7 +31,7 @@
       }
     }
     .two_element {
-      flex-basis: 70%;
+      flex-basis: 65%;
       // article {
       //   flex-basis: 45%;
       // }
@@ -52,7 +52,7 @@
       }
     }
     .two_element {
-      flex-basis: 100%;
+      flex-basis:60%;
       h1{
         width: 100%;
       }
@@ -63,9 +63,32 @@
 }
 }
 
-@media (max-width: 1324px){
+@media (max-width: 1453px){
   .contenido-right {
-    flex-basis: 60%;
+    flex-basis: 55%;
+    .experiencias {
+      article {
+          .exp{
+            flex-basis: 65%;
+          }
+
+      }
+    }
+    .two_element {
+      flex-basis: 60%;
+      h1{
+        width: 100%;
+      }
+      article{
+        flex-basis: 40%;
+      }
+    }
+}
+}
+
+@media (max-width: 1364px){
+  .contenido-right {
+    flex-basis: 55%;
     .experiencias {
       article {
           .exp{

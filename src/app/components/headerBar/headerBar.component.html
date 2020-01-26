@@ -1,0 +1,33 @@
+<header class="header">
+  <div class="center">
+    <!-- LOGO  -->
+    <div class="logo"  >
+      <img src="./assets/img/logo_tres_lineas.png" alt="Logotipo" class="app-logo" (click)="onHome()">
+    </div>
+    <!-- MENU -->
+    <nav class="menu">
+      <ul>
+        <li>
+          <a [routerLink]="['/home']" [routerLinkActive]="['active']">{{ 'header.home' | translate }}</a>
+        </li>
+        <li>
+          <a [routerLink]="['/cv']" [routerLinkActive]="['active']">{{ 'header.cv' | translate }}</a>
+        </li>
+        <li>
+          <a [routerLink]="['/portafolio']" [routerLinkActive]="['active']">{{ 'header.portafolio' | translate }}</a>
+        </li>
+        <li>
+          <a [routerLink]="['/about']" [routerLinkActive]="['active']">{{ 'header.about' | translate }}</a>
+        </li>
+        <li>
+          <a [routerLink]="['./contact']" [routerLinkActive]="['active']">{{ 'header.contact' | translate }}</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- LIMPIAR FLOTADOS -->
+    <div class="clearfix"></div>
+
+  </div>
+
+</header>

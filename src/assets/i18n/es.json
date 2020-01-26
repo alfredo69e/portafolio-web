@@ -1,0 +1,20 @@
+{
+    "header": {
+        "home": "Inicio",
+        "portafolio": "Portafolio",
+        "about": "Sobre mi",
+        "contact": "Contactame",
+        "cv": "Currículum vitae"
+    },
+
+    "home": {
+        "developer": "Desarrollador de app & Desarrollador Web",
+        "viewPortafolio": "Ver Portafolio",
+        "portafolio": "Experiencia en Desarrollo de App & Desarrollo Web ágil y dinamico constante aprendizaje"
+    },
+
+    "footer": {
+        "developer": "Desarrollador de app & Desarrollador Web"
+        
+    }
+}

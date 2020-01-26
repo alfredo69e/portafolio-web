@@ -1,0 +1,21 @@
+{
+    "header": {
+        "home": "Home",
+        "portafolio": "Portafolio",
+        "about": "About",
+        "contact": "Contact",
+        "cv": "Curriculum vitae"
+
+    },
+
+    "home": {
+        "developer": "App Designer & Web Developer",
+        "viewPortafolio": "View Portafolio",
+        "portafolio": "Experience in App Development & Web Development agile and dynamic constant learning"
+    },
+
+    "footer": {
+        "developer": "App Designer & Web Developer"
+        
+    }
+}
